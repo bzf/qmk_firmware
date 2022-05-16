@@ -39,7 +39,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_DEL,  KC_QUOT, KC_COMM, KC_DOT,  KC_P,    KC_Y,    TG(SYMB),          TG(SYMB),KC_F,    KC_G,    KC_C,    KC_R,    KC_L,     KC_BSLS,
   CTL_T(KC_ESC), KC_A,    KC_O,    KC_E,    KC_U,    KC_I,    KC_HYPR,           KC_MEH,  KC_D,    KC_H,    KC_T,    KC_N,    KC_S,     KC_MINS,
         KC_LSFT, KC_COLON,KC_Q,    KC_J,    KC_K,    KC_X,                                KC_B,    KC_M,    KC_W,    KC_V,    KC_Z,     KC_RSFT,
-    LT(SYMB,KC_GRV),WEBUSB_PAIR,A(KC_LSFT),KC_LEFT, KC_RGHT,  LALT_T(KC_APP),    RCTL_T(KC_ESC),   KC_UP,   KC_DOWN, KC_LBRC, KC_RBRC,  MO(SYMB),
+    LT(SYMB,KC_GRV),WEBUSB_PAIR,A(KC_LSFT),KC_LEFT, KC_RGHT,  LALT_T(KC_APP),    RCTL_T(KC_ESC),   KC_UP,   KC_DOWN, KC_SLSH, KC_RBRC,  MO(SYMB),
                                            KC_SPC,  KC_BSPC, KC_LGUI,            KC_LALT,  KC_TAB,  RSFT_T(KC_ENT)
     ),
 
